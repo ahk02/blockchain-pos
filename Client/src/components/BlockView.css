@@ -1,0 +1,17 @@
+.card {
+    width: 300px;
+    border: 1px solid black;
+    margin-right: 10px;
+    transition: transform 450ms;
+    display: inline-block;
+}
+
+.card:hover {
+    transform: scale(1.08);
+}
+
+.container2 {
+    padding: 20px;
+    white-space: nowrap;
+    overflow: auto;
+}
